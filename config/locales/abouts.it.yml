@@ -1,0 +1,13 @@
+it:
+  spree:
+    admin:
+      tab:
+        abouts: "Abouts"
+    new_about: "Nuovo About"
+    listing_abouts: "Lista Abouts"
+    editing_about: "Modifica About"
+  activerecord:
+    attributes:
+      spree/about:
+        title: Title
+        content: Content
