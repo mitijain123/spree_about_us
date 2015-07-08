@@ -1,4 +1,4 @@
-class Spree::Api::AboutusController < Spree::Api::BaseController  
+class Spree::Api::AboutsController < Spree::Api::BaseController  
 	skip_before_action :authenticate_user, :only => [:index]
 
 	def index
